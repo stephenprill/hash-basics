@@ -20,6 +20,11 @@ person = {
 #
 #------- your code below here ---------
 
+nickname = person["first_name"].chars.first + person["last_name"].chars.first
+# foo[:c] = "new value"
+# name_of_hash[:key] = "value"
+person["nickname"] = nickname
+# person["nickname"] = "BB"
 #------- your code above here ---------
 
 p person["nickname"]

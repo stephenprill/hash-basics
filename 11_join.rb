@@ -23,3 +23,19 @@ person = {
 #   "address,favorite_foods,favorite_sport,first_name,last_name,wears_glasses"
 #
 #------- your code below here ---------
+
+# create empty string shovel stuff in <<
+string = " "
+person.each do |x,y|
+  string  << "#{x}, "
+end
+
+p string.chomp(", ")
+
+# person["address"].keys.each do |x|
+#   p x
+# end
+#
+# person["address"].values.each do |x|
+#   p x
+# end

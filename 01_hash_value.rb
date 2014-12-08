@@ -12,3 +12,5 @@ person = {
 #   ["sushi", "hamburgers", "mexican food"]
 #
 #------- your code below here ---------
+
+p person[:favorite_foods]

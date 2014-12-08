@@ -1,7 +1,9 @@
 person = {
   first_name: "Bjorn",
   last_name: "Borg",
-  favorite_foods: ["sushi", "hamburgers", "mexican food"],
+  :favorite_foods => ["sushi", "hamburgers", "mexican food"],
+  # "favorite_foods" => ["sushi", "hamburgers", "mexican food"],
+
   favorite_sport: "tennis"
 }
 
@@ -15,6 +17,8 @@ foods = ["ethiopian", "argentine"]
 #   ["sushi", "hamburgers", "mexican food", "ethiopian", "argentine"]
 #
 #------- your code below here ---------
+
+person[:favorite_foods] += foods
 
 #------- your code above here ---------
 

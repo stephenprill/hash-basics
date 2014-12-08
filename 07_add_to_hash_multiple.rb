@@ -31,6 +31,14 @@ tournaments = {
 #
 #------- your code below here ---------
 
+person = person.merge(tournaments)
+
+# hashes
+# some_hash = {}
+# some_hash[:foo] = "bar" # assign
+# some_hash.merge(:baz => "huh?", :acme => "co") # assign multiple at a time
+# it returns a separate array merge does that is
+
 #------- your code above here ---------
 
 puts "Wins: #{person[:tournament_wins][:wimbledon].inspect}"
